@@ -246,10 +246,9 @@ table.table .avatar {
 </style>
 <script>
 $(document).ready(function(){
-	// Activate tooltip
 	$('[data-toggle="tooltip"]').tooltip();
 	
-	// Select/Deselect checkboxes
+	
 	var checkbox = $('table tbody input[type="checkbox"]');
 	$("#selectAll").click(function(){
 		if(this.checked){
@@ -332,18 +331,12 @@ $(document).ready(function(){
 				<?php
 			}
 			?>
-
-
-
-			
-		
-					
-					
 				</tbody>
 			</table>
 			
 	</div>        
 </div>
+
 <!-- Add User HTML -->
 <div id="addEmployeeModal" class="modal fade">
 	<div class="modal-dialog">
